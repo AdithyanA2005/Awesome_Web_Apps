@@ -1,0 +1,542 @@
+body {
+  background-color: #000;
+  perspective: 500px;
+}
+
+.animation {
+  background-color: #000;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.animation .banner {
+  display: flex;
+}
+.animation .panel {
+  position: relative;
+  width: 5px;
+  height: 100px;
+  overflow: hidden;
+  left: 0;
+  animation: rotate 6s var(--delay) infinite ease-in-out;
+}
+.animation .panel::before {
+  position: absolute;
+  content: "Hello World";
+  left: var(--panel-offset-left);
+  font-size: 100px;
+  width: max-content;
+  color: hsl(var(--hue), 75%, 75%);
+}
+.animation .panel:nth-child(1) {
+  --panel-offset-left: 0px;
+  --hue: 0;
+  --delay: 0s;
+}
+.animation .panel:nth-child(2) {
+  --panel-offset-left: -5px;
+  --hue: 3.6;
+  --delay: 0.01s;
+}
+.animation .panel:nth-child(3) {
+  --panel-offset-left: -10px;
+  --hue: 7.2;
+  --delay: 0.02s;
+}
+.animation .panel:nth-child(4) {
+  --panel-offset-left: -15px;
+  --hue: 10.8;
+  --delay: 0.03s;
+}
+.animation .panel:nth-child(5) {
+  --panel-offset-left: -20px;
+  --hue: 14.4;
+  --delay: 0.04s;
+}
+.animation .panel:nth-child(6) {
+  --panel-offset-left: -25px;
+  --hue: 18;
+  --delay: 0.05s;
+}
+.animation .panel:nth-child(7) {
+  --panel-offset-left: -30px;
+  --hue: 21.6;
+  --delay: 0.06s;
+}
+.animation .panel:nth-child(8) {
+  --panel-offset-left: -35px;
+  --hue: 25.2;
+  --delay: 0.07s;
+}
+.animation .panel:nth-child(9) {
+  --panel-offset-left: -40px;
+  --hue: 28.8;
+  --delay: 0.08s;
+}
+.animation .panel:nth-child(10) {
+  --panel-offset-left: -45px;
+  --hue: 32.4;
+  --delay: 0.09s;
+}
+.animation .panel:nth-child(11) {
+  --panel-offset-left: -50px;
+  --hue: 36;
+  --delay: 0.1s;
+}
+.animation .panel:nth-child(12) {
+  --panel-offset-left: -55px;
+  --hue: 39.6;
+  --delay: 0.11s;
+}
+.animation .panel:nth-child(13) {
+  --panel-offset-left: -60px;
+  --hue: 43.2;
+  --delay: 0.12s;
+}
+.animation .panel:nth-child(14) {
+  --panel-offset-left: -65px;
+  --hue: 46.8;
+  --delay: 0.13s;
+}
+.animation .panel:nth-child(15) {
+  --panel-offset-left: -70px;
+  --hue: 50.4;
+  --delay: 0.14s;
+}
+.animation .panel:nth-child(16) {
+  --panel-offset-left: -75px;
+  --hue: 54;
+  --delay: 0.15s;
+}
+.animation .panel:nth-child(17) {
+  --panel-offset-left: -80px;
+  --hue: 57.6;
+  --delay: 0.16s;
+}
+.animation .panel:nth-child(18) {
+  --panel-offset-left: -85px;
+  --hue: 61.2;
+  --delay: 0.17s;
+}
+.animation .panel:nth-child(19) {
+  --panel-offset-left: -90px;
+  --hue: 64.8;
+  --delay: 0.18s;
+}
+.animation .panel:nth-child(20) {
+  --panel-offset-left: -95px;
+  --hue: 68.4;
+  --delay: 0.19s;
+}
+.animation .panel:nth-child(21) {
+  --panel-offset-left: -100px;
+  --hue: 72;
+  --delay: 0.2s;
+}
+.animation .panel:nth-child(22) {
+  --panel-offset-left: -105px;
+  --hue: 75.6;
+  --delay: 0.21s;
+}
+.animation .panel:nth-child(23) {
+  --panel-offset-left: -110px;
+  --hue: 79.2;
+  --delay: 0.22s;
+}
+.animation .panel:nth-child(24) {
+  --panel-offset-left: -115px;
+  --hue: 82.8;
+  --delay: 0.23s;
+}
+.animation .panel:nth-child(25) {
+  --panel-offset-left: -120px;
+  --hue: 86.4;
+  --delay: 0.24s;
+}
+.animation .panel:nth-child(26) {
+  --panel-offset-left: -125px;
+  --hue: 90;
+  --delay: 0.25s;
+}
+.animation .panel:nth-child(27) {
+  --panel-offset-left: -130px;
+  --hue: 93.6;
+  --delay: 0.26s;
+}
+.animation .panel:nth-child(28) {
+  --panel-offset-left: -135px;
+  --hue: 97.2;
+  --delay: 0.27s;
+}
+.animation .panel:nth-child(29) {
+  --panel-offset-left: -140px;
+  --hue: 100.8;
+  --delay: 0.28s;
+}
+.animation .panel:nth-child(30) {
+  --panel-offset-left: -145px;
+  --hue: 104.4;
+  --delay: 0.29s;
+}
+.animation .panel:nth-child(31) {
+  --panel-offset-left: -150px;
+  --hue: 108;
+  --delay: 0.3s;
+}
+.animation .panel:nth-child(32) {
+  --panel-offset-left: -155px;
+  --hue: 111.6;
+  --delay: 0.31s;
+}
+.animation .panel:nth-child(33) {
+  --panel-offset-left: -160px;
+  --hue: 115.2;
+  --delay: 0.32s;
+}
+.animation .panel:nth-child(34) {
+  --panel-offset-left: -165px;
+  --hue: 118.8;
+  --delay: 0.33s;
+}
+.animation .panel:nth-child(35) {
+  --panel-offset-left: -170px;
+  --hue: 122.4;
+  --delay: 0.34s;
+}
+.animation .panel:nth-child(36) {
+  --panel-offset-left: -175px;
+  --hue: 126;
+  --delay: 0.35s;
+}
+.animation .panel:nth-child(37) {
+  --panel-offset-left: -180px;
+  --hue: 129.6;
+  --delay: 0.36s;
+}
+.animation .panel:nth-child(38) {
+  --panel-offset-left: -185px;
+  --hue: 133.2;
+  --delay: 0.37s;
+}
+.animation .panel:nth-child(39) {
+  --panel-offset-left: -190px;
+  --hue: 136.8;
+  --delay: 0.38s;
+}
+.animation .panel:nth-child(40) {
+  --panel-offset-left: -195px;
+  --hue: 140.4;
+  --delay: 0.39s;
+}
+.animation .panel:nth-child(41) {
+  --panel-offset-left: -200px;
+  --hue: 144;
+  --delay: 0.4s;
+}
+.animation .panel:nth-child(42) {
+  --panel-offset-left: -205px;
+  --hue: 147.6;
+  --delay: 0.41s;
+}
+.animation .panel:nth-child(43) {
+  --panel-offset-left: -210px;
+  --hue: 151.2;
+  --delay: 0.42s;
+}
+.animation .panel:nth-child(44) {
+  --panel-offset-left: -215px;
+  --hue: 154.8;
+  --delay: 0.43s;
+}
+.animation .panel:nth-child(45) {
+  --panel-offset-left: -220px;
+  --hue: 158.4;
+  --delay: 0.44s;
+}
+.animation .panel:nth-child(46) {
+  --panel-offset-left: -225px;
+  --hue: 162;
+  --delay: 0.45s;
+}
+.animation .panel:nth-child(47) {
+  --panel-offset-left: -230px;
+  --hue: 165.6;
+  --delay: 0.46s;
+}
+.animation .panel:nth-child(48) {
+  --panel-offset-left: -235px;
+  --hue: 169.2;
+  --delay: 0.47s;
+}
+.animation .panel:nth-child(49) {
+  --panel-offset-left: -240px;
+  --hue: 172.8;
+  --delay: 0.48s;
+}
+.animation .panel:nth-child(50) {
+  --panel-offset-left: -245px;
+  --hue: 176.4;
+  --delay: 0.49s;
+}
+.animation .panel:nth-child(51) {
+  --panel-offset-left: -250px;
+  --hue: 180;
+  --delay: 0.5s;
+}
+.animation .panel:nth-child(52) {
+  --panel-offset-left: -255px;
+  --hue: 183.6;
+  --delay: 0.51s;
+}
+.animation .panel:nth-child(53) {
+  --panel-offset-left: -260px;
+  --hue: 187.2;
+  --delay: 0.52s;
+}
+.animation .panel:nth-child(54) {
+  --panel-offset-left: -265px;
+  --hue: 190.8;
+  --delay: 0.53s;
+}
+.animation .panel:nth-child(55) {
+  --panel-offset-left: -270px;
+  --hue: 194.4;
+  --delay: 0.54s;
+}
+.animation .panel:nth-child(56) {
+  --panel-offset-left: -275px;
+  --hue: 198;
+  --delay: 0.55s;
+}
+.animation .panel:nth-child(57) {
+  --panel-offset-left: -280px;
+  --hue: 201.6;
+  --delay: 0.56s;
+}
+.animation .panel:nth-child(58) {
+  --panel-offset-left: -285px;
+  --hue: 205.2;
+  --delay: 0.57s;
+}
+.animation .panel:nth-child(59) {
+  --panel-offset-left: -290px;
+  --hue: 208.8;
+  --delay: 0.58s;
+}
+.animation .panel:nth-child(60) {
+  --panel-offset-left: -295px;
+  --hue: 212.4;
+  --delay: 0.59s;
+}
+.animation .panel:nth-child(61) {
+  --panel-offset-left: -300px;
+  --hue: 216;
+  --delay: 0.6s;
+}
+.animation .panel:nth-child(62) {
+  --panel-offset-left: -305px;
+  --hue: 219.6;
+  --delay: 0.61s;
+}
+.animation .panel:nth-child(63) {
+  --panel-offset-left: -310px;
+  --hue: 223.2;
+  --delay: 0.62s;
+}
+.animation .panel:nth-child(64) {
+  --panel-offset-left: -315px;
+  --hue: 226.8;
+  --delay: 0.63s;
+}
+.animation .panel:nth-child(65) {
+  --panel-offset-left: -320px;
+  --hue: 230.4;
+  --delay: 0.64s;
+}
+.animation .panel:nth-child(66) {
+  --panel-offset-left: -325px;
+  --hue: 234;
+  --delay: 0.65s;
+}
+.animation .panel:nth-child(67) {
+  --panel-offset-left: -330px;
+  --hue: 237.6;
+  --delay: 0.66s;
+}
+.animation .panel:nth-child(68) {
+  --panel-offset-left: -335px;
+  --hue: 241.2;
+  --delay: 0.67s;
+}
+.animation .panel:nth-child(69) {
+  --panel-offset-left: -340px;
+  --hue: 244.8;
+  --delay: 0.68s;
+}
+.animation .panel:nth-child(70) {
+  --panel-offset-left: -345px;
+  --hue: 248.4;
+  --delay: 0.69s;
+}
+.animation .panel:nth-child(71) {
+  --panel-offset-left: -350px;
+  --hue: 252;
+  --delay: 0.7s;
+}
+.animation .panel:nth-child(72) {
+  --panel-offset-left: -355px;
+  --hue: 255.6;
+  --delay: 0.71s;
+}
+.animation .panel:nth-child(73) {
+  --panel-offset-left: -360px;
+  --hue: 259.2;
+  --delay: 0.72s;
+}
+.animation .panel:nth-child(74) {
+  --panel-offset-left: -365px;
+  --hue: 262.8;
+  --delay: 0.73s;
+}
+.animation .panel:nth-child(75) {
+  --panel-offset-left: -370px;
+  --hue: 266.4;
+  --delay: 0.74s;
+}
+.animation .panel:nth-child(76) {
+  --panel-offset-left: -375px;
+  --hue: 270;
+  --delay: 0.75s;
+}
+.animation .panel:nth-child(77) {
+  --panel-offset-left: -380px;
+  --hue: 273.6;
+  --delay: 0.76s;
+}
+.animation .panel:nth-child(78) {
+  --panel-offset-left: -385px;
+  --hue: 277.2;
+  --delay: 0.77s;
+}
+.animation .panel:nth-child(79) {
+  --panel-offset-left: -390px;
+  --hue: 280.8;
+  --delay: 0.78s;
+}
+.animation .panel:nth-child(80) {
+  --panel-offset-left: -395px;
+  --hue: 284.4;
+  --delay: 0.79s;
+}
+.animation .panel:nth-child(81) {
+  --panel-offset-left: -400px;
+  --hue: 288;
+  --delay: 0.8s;
+}
+.animation .panel:nth-child(82) {
+  --panel-offset-left: -405px;
+  --hue: 291.6;
+  --delay: 0.81s;
+}
+.animation .panel:nth-child(83) {
+  --panel-offset-left: -410px;
+  --hue: 295.2;
+  --delay: 0.82s;
+}
+.animation .panel:nth-child(84) {
+  --panel-offset-left: -415px;
+  --hue: 298.8;
+  --delay: 0.83s;
+}
+.animation .panel:nth-child(85) {
+  --panel-offset-left: -420px;
+  --hue: 302.4;
+  --delay: 0.84s;
+}
+.animation .panel:nth-child(86) {
+  --panel-offset-left: -425px;
+  --hue: 306;
+  --delay: 0.85s;
+}
+.animation .panel:nth-child(87) {
+  --panel-offset-left: -430px;
+  --hue: 309.6;
+  --delay: 0.86s;
+}
+.animation .panel:nth-child(88) {
+  --panel-offset-left: -435px;
+  --hue: 313.2;
+  --delay: 0.87s;
+}
+.animation .panel:nth-child(89) {
+  --panel-offset-left: -440px;
+  --hue: 316.8;
+  --delay: 0.88s;
+}
+.animation .panel:nth-child(90) {
+  --panel-offset-left: -445px;
+  --hue: 320.4;
+  --delay: 0.89s;
+}
+.animation .panel:nth-child(91) {
+  --panel-offset-left: -450px;
+  --hue: 324;
+  --delay: 0.9s;
+}
+.animation .panel:nth-child(92) {
+  --panel-offset-left: -455px;
+  --hue: 327.6;
+  --delay: 0.91s;
+}
+.animation .panel:nth-child(93) {
+  --panel-offset-left: -460px;
+  --hue: 331.2;
+  --delay: 0.92s;
+}
+.animation .panel:nth-child(94) {
+  --panel-offset-left: -465px;
+  --hue: 334.8;
+  --delay: 0.93s;
+}
+.animation .panel:nth-child(95) {
+  --panel-offset-left: -470px;
+  --hue: 338.4;
+  --delay: 0.94s;
+}
+.animation .panel:nth-child(96) {
+  --panel-offset-left: -475px;
+  --hue: 342;
+  --delay: 0.95s;
+}
+.animation .panel:nth-child(97) {
+  --panel-offset-left: -480px;
+  --hue: 345.6;
+  --delay: 0.96s;
+}
+.animation .panel:nth-child(98) {
+  --panel-offset-left: -485px;
+  --hue: 349.2;
+  --delay: 0.97s;
+}
+.animation .panel:nth-child(99) {
+  --panel-offset-left: -490px;
+  --hue: 352.8;
+  --delay: 0.98s;
+}
+.animation .panel:nth-child(100) {
+  --panel-offset-left: -495px;
+  --hue: 356.4;
+  --delay: 0.99s;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
