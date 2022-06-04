@@ -1,6 +1,6 @@
 # Awesome_Web_Designs
 
-### This project contains pure design designed by me
+### This project contains projects which are created with using HTML CSS JS
 
 > ## [00-Car_Animation](/00-Car_Animation/index.html)
 >
