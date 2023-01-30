@@ -1,0 +1,20 @@
+button{
+    &:hover {
+        background: white;
+        color: royalblue;
+        transition: ease-in-out 0.3s;
+        
+    }
+}
+
+.clear {
+    &:hover {
+        background: rgba(255, 0, 0, 0.540);
+    }
+}
+
+.backspace {
+    &:hover {
+        background: rgba(255, 166, 0, 0.540);
+    }
+}

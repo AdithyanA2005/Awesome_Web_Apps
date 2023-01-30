@@ -1,0 +1,29 @@
+.key_set {
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.row {
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+}
+
+.clear {
+    background: rgba(255, 0, 0, 0.2);
+}
+
+.backspace {
+    background: rgba(255, 166, 0, 0.2);
+}
+
+button {
+    width: 7rem;
+    height: 4rem;
+    margin: auto;   
+    border-radius: 1rem;
+    font-family: var(--font1); 
+    font-size: 1.9rem;
+    color: white;
+    background: rgba(255, 255, 255, 0.20);
+}

@@ -24,11 +24,17 @@
 > ## [03-Web_Clock](https://adithyana2005.github.io/Awesome_Web_Designs/03-Web_Clock/index.html)
 >
 > This is a web clock made by using pure HTML CSS &JS
-> ![Raining_Cloud_Animation](./github/03_Screenshot.png)
+> ![Web_Clock](./github/03_Screenshot.png)
 
 
 
 > ## [04-Flip_Clock](https://adithyana2005.github.io/Awesome_Web_Designs/04-Flip_Clock/index.html)
 >
 > This is a clock with a fliping design. Created by using pure HTML CSS JSS
-> ![Raining_Cloud_Animation](./github/04_Screenshot.png)
+> ![Flip_Clock](./github/04_Screenshot.png)
+
+
+> ## [05-Web_Calculator](https://adithyana2005.github.io/Awesome_Web_Designs/05-Web_Calculator/index.html)
+>
+> This is a web based calculator developed using HTML, SCSS and JS
+> ![Web_Calculator](./github/05_Screenshot.png)
