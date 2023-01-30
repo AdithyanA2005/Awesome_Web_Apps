@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+:root
+{
+--font1: 'Teko', sans-serif;
+}
+
+::placeholder {
+    color: white;
+}
+
+h2 {
+    color:white;
+    font-size: 2rem;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background: linear-gradient(royalblue, pink);
+    padding: 25px;
+}
+
+.input {
+    background: linear-gradient(orange, pink);
+    color: white;
+    border-color: pink;
+    font-family: var(--font1);
+    font-size: 2rem;
+    height: 3rem;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button:nth-child(1) {
+    background-color: rgba(56, 172, 172, 0.678);
+    width:35%;
+    height: 3rem; 
+    font-family: var(--font1);
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+button:nth-child(2) {
+    background-color: rgba(255, 0, 0, 0.288);
+    width: 35%;
+    height:  3rem; 
+    font-family: var(--font1);
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}

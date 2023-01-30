@@ -1,0 +1,31 @@
+.navbar
+{
+    background-color: darkcyan;   
+    text-align: center;
+}
+
+.navbar-brand
+{
+    color: white;
+}
+
+.nav-link
+{
+    color: white;
+}
+
+.jumbotron
+{
+    color: grey;      
+    text-align: center;
+}
+
+.body
+{
+    background-color: gray;
+}
+
+.container
+{
+    width: max-content;
+}
