@@ -20,3 +20,9 @@
 > This is a Raining Cloud Animation
 > ![Raining_Cloud_Animation](./github/02_Screenshot.png)
 
+
+> ## [03-Web_Clock](https://adithyana2005.github.io/Awesome_Web_Designs/03-Web_Clock/index.html)
+>
+> This is a web clock made by using pure HTML CSS &JS
+> ![Raining_Cloud_Animation](./github/03_Screenshot.png)
+
