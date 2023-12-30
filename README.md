@@ -3,38 +3,38 @@
 ### This project contains projects which are created with using HTML CSS JS
 
 
-> ## [00-Car_Animation](https://adithyana2005.github.io/Awesome_Web_Designs/00-Car_Animation/index.html)
+> ## [00-Car_Animation](https://adithyana2005.github.io/Awesome_Web_Apps/00-Car_Animation/index.html)
 >
 > This is a car animation made by using pure css and js
 > ![Car_Animation](./github/00_Screenshot.png)
 
 
-> ## [01-Twist_Text_Animation](https://adithyana2005.github.io/Awesome_Web_Designs/01-Twist_Text_Animation/index.html)
+> ## [01-Twist_Text_Animation](https://adithyana2005.github.io/Awesome_Web_Apps/01-Twist_Text_Animation/index.html)
 >
 > This is a 3D Text animation
 > ![Twist_Text_Animation](./github/01_Screenshot.png)
 
 
-> ## [02-Raining_Cloud_Animation](https://adithyana2005.github.io/Awesome_Web_Designs/02-Raining_Cloud_Animation/index.html)
+> ## [02-Raining_Cloud_Animation](https://adithyana2005.github.io/Awesome_Web_Apps/02-Raining_Cloud_Animation/index.html)
 >
 > This is a Raining Cloud Animation
 > ![Raining_Cloud_Animation](./github/02_Screenshot.png)
 
 
-> ## [03-Web_Clock](https://adithyana2005.github.io/Awesome_Web_Designs/03-Web_Clock/index.html)
+> ## [03-Web_Clock](https://adithyana2005.github.io/Awesome_Web_Apps/03-Web_Clock/index.html)
 >
 > This is a web clock made by using pure HTML CSS &JS
 > ![Web_Clock](./github/03_Screenshot.png)
 
 
 
-> ## [04-Flip_Clock](https://adithyana2005.github.io/Awesome_Web_Designs/04-Flip_Clock/index.html)
+> ## [04-Flip_Clock](https://adithyana2005.github.io/Awesome_Web_Apps/04-Flip_Clock/index.html)
 >
 > This is a clock with a fliping design. Created by using pure HTML CSS JSS
 > ![Flip_Clock](./github/04_Screenshot.png)
 
 
-> ## [05-Web_Calculator](https://adithyana2005.github.io/Awesome_Web_Designs/05-Web_Calculator/index.html)
+> ## [05-Web_Calculator](https://adithyana2005.github.io/Awesome_Web_Apps/05-Web_Calculator/index.html)
 >
 > This is a web based calculator developed using HTML, SCSS and JS
 > ![Web_Calculator](./github/05_Screenshot.png)
