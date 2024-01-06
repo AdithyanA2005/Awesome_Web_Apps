@@ -1,0 +1,40 @@
+::placeholder {
+    color: #999;
+}
+
+.boxname{
+    width: 194px;
+    height: 33px;
+    font-size: 18px;
+    border-top-color: #d0d7e04f;
+    border-left-color: #d0d7e04f;
+    border-bottom-color: #4c6c9536;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+}
+
+.email-pass {
+    height: 33px;
+    width: 393px;
+    font-size: 18px;
+    margin-top: 3mm;
+    margin-bottom: 15px;
+    border-top-color: #d0d7e04f;
+    border-left-color: #d0d7e04f;
+    border-bottom-color: #4c6c9536;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.pass {
+    margin-top: -3px;
+}
