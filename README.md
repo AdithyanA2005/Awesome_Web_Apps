@@ -51,7 +51,7 @@
 > ![Instagram Login Page Clone](./07-Instagram_Login_Page/.github/Screenshot.png)
 
 
-> ## [08-LinkedIn_Login_Page](https://adithyana2005.github.io/Awesome_Web_Apps/07-Instagram_Login_Page/index.html)
+> ## [08-LinkedIn_Login_Page](https://adithyana2005.github.io/Awesome_Web_Apps/08-LinkedIn_Login_Page/index.html)
 >
 > This is a clone of the Instagram login page
 > ![LinkeIn Login Page Clone](./08-LinkedIn_Login_Page/.github/Screenshot.png)
