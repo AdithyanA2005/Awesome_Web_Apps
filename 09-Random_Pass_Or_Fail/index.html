@@ -1,0 +1,43 @@
+<!DOCTYPE htmlj <html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Fail Status Generator</title>
+  <!-- Include Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-black flex flex-col items-center justify-center h-screen">
+  <div
+    class="border-4 border-indigo-500 rounded-2xl max-w-2xl w-full bg-indigo-500 bg-opacity-5 backdrop-blur-xl p-16 shadow-md">
+    <h1 class="text-5xl mb-8 font-bold text-green-500 text-center">Check Your Exam Luck</h1>
+
+    <!-- Input for student name -->
+    <div class="mb-8 max-w-md mx-auto">
+      <label for="studentName" class="mb-1 text-lg block text-green-100">Enter student's name</label>
+      <input type="text" id="studentName"
+        class="w-full border rounded py-3 px-4 focus:outline-none focus:ring focus:border-blue-300"
+        placeholder="John Doe">
+    </div>
+
+    <!-- Button to generate fail status -->
+    <div class="flex items-center align-center">
+      <button onclick="generateFailStatus()"
+        class="mx-auto bg-green-500 text-xl text-white md:w-auto w-full py-2 px-16 rounded focus:outline-none focus:shadow-outline-green hover:bg-green-600 active:bg-green-800">
+        Generate
+      </button>
+    </div>
+
+    <!-- Display result area with animations -->
+    <div id="result" class="mt-4 text-center text-red-100 text-xl text-gray-700 animate__animated animate__fadeIn">
+    </div>
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss-heroicons@0.6.0/dist/outline.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
